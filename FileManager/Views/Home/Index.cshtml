@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FileManagement</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/devcustomer/css/style.css" rel="stylesheet" asp-append-version="true" />
+    <script defer src="~/lib/alpinejs/cdn.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="filemanager">
+            @* thanh cong cu *@
+            <div class="fm-toolbox">
+            </div>
+            @* ben trai *@
+            <div class="fm-folder-tree">
+            </div>
+
+            @* ben phai trung tam *@
+            <div class="fm-main-panel">
+            </div>
+            @* thong tin bo sung *@
+            <div class="fm-additional-info">
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/devcustomer/js/main.js"></script>
+</body>
+</html>
